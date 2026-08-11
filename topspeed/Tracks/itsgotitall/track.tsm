@@ -1,0 +1,3218 @@
+[meta]
+name = itsgotitall
+version = 1
+weather = default
+ambience = none
+
+[weather:default]
+kind = sunny
+longitudinal_wind_mps = 0
+lateral_wind_mps = 0
+air_density = 1.225
+drafting_factor = 1
+temperature_c = 22
+humidity = 0.45
+pressure_kpa = 101.325
+visibility_m = 20000
+rain_gain = 0
+wind_gain = 0
+storm_gain = 0
+
+[room:outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment:seg1]
+type = straight
+surface = water
+noise = ocean
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg2]
+type = hard_right
+surface = water
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg3]
+type = hard_left
+surface = water
+noise = none
+length = 175
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg4]
+type = left
+surface = water
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg5]
+type = straight
+surface = water
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg6]
+type = hairpin_right
+surface = water
+noise = none
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg7]
+type = hard_left
+surface = water
+noise = none
+length = 59.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg8]
+type = hairpin_left
+surface = water
+noise = none
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg9]
+type = straight
+surface = water
+noise = crowd
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg10]
+type = straight
+surface = water
+noise = ocean
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg11]
+type = straight
+surface = water
+noise = runway
+length = 175
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg12]
+type = hairpin_left
+surface = water
+noise = none
+length = 129
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg13]
+type = hairpin_right
+surface = water
+noise = none
+length = 180
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg14]
+type = hairpin_left
+surface = sand
+noise = none
+length = 180
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg15]
+type = left
+surface = water
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg16]
+type = hairpin_left
+surface = water
+noise = none
+length = 129
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg17]
+type = hard_right
+surface = water
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg18]
+type = straight
+surface = gravel
+noise = none
+length = 75
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg19]
+type = hairpin_right
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg20]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 159
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg21]
+type = hard_right
+surface = sand
+noise = none
+length = 204.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg22]
+type = hard_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg23]
+type = hard_right
+surface = water
+noise = none
+length = 894.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg24]
+type = hairpin_right
+surface = sand
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg25]
+type = hairpin_left
+surface = sand
+noise = none
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg26]
+type = left
+surface = water
+noise = none
+length = 180
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg27]
+type = hard_right
+surface = water
+noise = none
+length = 150.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg28]
+type = hairpin_right
+surface = water
+noise = none
+length = 179.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg29]
+type = hairpin_right
+surface = sand
+noise = none
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg30]
+type = hairpin_left
+surface = water
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg31]
+type = right
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg32]
+type = hard_right
+surface = water
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg33]
+type = hairpin_left
+surface = water
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg34]
+type = hard_right
+surface = water
+noise = none
+length = 150.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg35]
+type = right
+surface = sand
+noise = none
+length = 55
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg36]
+type = hard_left
+surface = sand
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg37]
+type = hard_right
+surface = gravel
+noise = none
+length = 180
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg38]
+type = hard_right
+surface = gravel
+noise = none
+length = 170
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg39]
+type = hard_left
+surface = sand
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg40]
+type = easy_left
+surface = gravel
+noise = none
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg41]
+type = hairpin_left
+surface = sand
+noise = none
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg42]
+type = hard_right
+surface = water
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg43]
+type = hard_left
+surface = water
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg44]
+type = hard_right
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg45]
+type = straight
+surface = sand
+noise = none
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg46]
+type = hairpin_left
+surface = sand
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg47]
+type = hairpin_right
+surface = water
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg48]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 260
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg49]
+type = straight
+surface = water
+noise = crowd
+length = 260
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg50]
+type = straight
+surface = asphalt
+noise = ocean
+length = 260
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg51]
+type = straight
+surface = asphalt
+noise = runway
+length = 260
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg52]
+type = straight
+surface = water
+noise = clock
+length = 260
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg53]
+type = hard_left
+surface = gravel
+noise = none
+length = 55
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg54]
+type = easy_left
+surface = sand
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg55]
+type = straight
+surface = sand
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg56]
+type = easy_right
+surface = gravel
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg57]
+type = straight
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg58]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg59]
+type = hard_right
+surface = water
+noise = none
+length = 105
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg60]
+type = hairpin_right
+surface = water
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg61]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg62]
+type = hairpin_right
+surface = water
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg63]
+type = easy_left
+surface = gravel
+noise = none
+length = 59
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg64]
+type = easy_right
+surface = asphalt
+noise = none
+length = 79
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg65]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg66]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg67]
+type = hairpin_left
+surface = sand
+noise = none
+length = 170
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg68]
+type = hard_left
+surface = water
+noise = none
+length = 750
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg69]
+type = straight
+surface = asphalt
+noise = clock
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg70]
+type = hard_left
+surface = water
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg71]
+type = hairpin_right
+surface = sand
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg72]
+type = hard_left
+surface = water
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg73]
+type = left
+surface = gravel
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg74]
+type = hard_right
+surface = sand
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg75]
+type = hard_left
+surface = water
+noise = none
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg76]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg77]
+type = hard_right
+surface = gravel
+noise = none
+length = 900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg78]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 75
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg79]
+type = hairpin_right
+surface = water
+noise = none
+length = 85
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg80]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg81]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg82]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg83]
+type = hairpin_right
+surface = sand
+noise = none
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg84]
+type = hard_left
+surface = sand
+noise = none
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg85]
+type = hairpin_left
+surface = sand
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg86]
+type = hard_right
+surface = water
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg87]
+type = left
+surface = water
+noise = none
+length = 258
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg88]
+type = easy_right
+surface = sand
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg89]
+type = straight
+surface = gravel
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg90]
+type = easy_right
+surface = asphalt
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg91]
+type = straight
+surface = asphalt
+noise = ocean
+length = 2990
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg92]
+type = easy_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg93]
+type = hairpin_left
+surface = water
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg94]
+type = hard_right
+surface = water
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg95]
+type = straight
+surface = gravel
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg96]
+type = easy_left
+surface = asphalt
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg97]
+type = right
+surface = water
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg98]
+type = hard_left
+surface = asphalt
+noise = none
+length = 295
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg99]
+type = right
+surface = asphalt
+noise = none
+length = 589
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg100]
+type = hairpin_left
+surface = sand
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg101]
+type = straight
+surface = water
+noise = none
+length = 79.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg102]
+type = easy_left
+surface = gravel
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg103]
+type = straight
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg104]
+type = easy_right
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg105]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 51
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg106]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 650
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg107]
+type = left
+surface = gravel
+noise = none
+length = 59
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg108]
+type = easy_right
+surface = gravel
+noise = none
+length = 589
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg109]
+type = easy_left
+surface = water
+noise = none
+length = 148
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg110]
+type = hard_left
+surface = water
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg111]
+type = hard_left
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg112]
+type = right
+surface = sand
+noise = none
+length = 505
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg113]
+type = hairpin_right
+surface = sand
+noise = none
+length = 890
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg114]
+type = easy_left
+surface = gravel
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg115]
+type = hairpin_right
+surface = water
+noise = none
+length = 500
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg116]
+type = left
+surface = gravel
+noise = none
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg117]
+type = hairpin_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg118]
+type = hard_left
+surface = asphalt
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg119]
+type = hairpin_right
+surface = water
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg120]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg121]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg122]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg123]
+type = hairpin_right
+surface = water
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg124]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 1950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg125]
+type = straight
+surface = water
+noise = crowd
+length = 5000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg126]
+type = straight
+surface = water
+noise = ocean
+length = 8000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg127]
+type = straight
+surface = gravel
+noise = runway
+length = 7000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg128]
+type = straight
+surface = asphalt
+noise = clock
+length = 9000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg129]
+type = easy_left
+surface = gravel
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg130]
+type = left
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg131]
+type = hard_left
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg132]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg133]
+type = easy_right
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg134]
+type = right
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg135]
+type = hard_right
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg136]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg137]
+type = hard_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg138]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 940
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg139]
+type = hard_left
+surface = asphalt
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg140]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg141]
+type = hard_right
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg142]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg143]
+type = hard_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg144]
+type = right
+surface = asphalt
+noise = none
+length = 105
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg145]
+type = easy_left
+surface = gravel
+noise = none
+length = 1000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg146]
+type = hard_right
+surface = asphalt
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg147]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 720
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg148]
+type = easy_right
+surface = asphalt
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg149]
+type = left
+surface = asphalt
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg150]
+type = right
+surface = asphalt
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg151]
+type = left
+surface = asphalt
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg152]
+type = easy_right
+surface = asphalt
+noise = none
+length = 205
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg153]
+type = hard_right
+surface = asphalt
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg154]
+type = hard_left
+surface = asphalt
+noise = none
+length = 295
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg155]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg156]
+type = easy_left
+surface = asphalt
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg157]
+type = right
+surface = sand
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg158]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg159]
+type = straight
+surface = asphalt
+noise = ocean
+length = 9500
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg160]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg161]
+type = hard_right
+surface = asphalt
+noise = none
+length = 60
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg162]
+type = right
+surface = asphalt
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg163]
+type = easy_right
+surface = asphalt
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg164]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg165]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg166]
+type = hard_left
+surface = asphalt
+noise = none
+length = 110
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg167]
+type = left
+surface = asphalt
+noise = none
+length = 120
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg168]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 130
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg169]
+type = easy_left
+surface = gravel
+noise = none
+length = 1400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg170]
+type = hard_left
+surface = asphalt
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg171]
+type = right
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg172]
+type = hard_right
+surface = asphalt
+noise = none
+length = 4950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg173]
+type = easy_left
+surface = asphalt
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg174]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg175]
+type = hard_right
+surface = gravel
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg176]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg177]
+type = straight
+surface = asphalt
+noise = crowd
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg178]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg179]
+type = hard_right
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg180]
+type = hard_right
+surface = gravel
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg181]
+type = hard_left
+surface = asphalt
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg182]
+type = hard_right
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg183]
+type = hard_left
+surface = asphalt
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg184]
+type = easy_right
+surface = asphalt
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg185]
+type = easy_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg186]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg187]
+type = hard_right
+surface = water
+noise = none
+length = 395
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg188]
+type = hard_right
+surface = sand
+noise = none
+length = 295
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg189]
+type = easy_left
+surface = sand
+noise = none
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg190]
+type = easy_right
+surface = sand
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg191]
+type = easy_left
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg192]
+type = easy_right
+surface = sand
+noise = none
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg193]
+type = left
+surface = sand
+noise = none
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg194]
+type = easy_right
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg195]
+type = hard_left
+surface = sand
+noise = none
+length = 2400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg196]
+type = hard_right
+surface = asphalt
+noise = none
+length = 295
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg197]
+type = easy_left
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg198]
+type = straight
+surface = sand
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg199]
+type = left
+surface = asphalt
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg200]
+type = easy_right
+surface = gravel
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg201]
+type = hard_right
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg202]
+type = straight
+surface = sand
+noise = ocean
+length = 2500
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg203]
+type = easy_left
+surface = water
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg204]
+type = straight
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg205]
+type = hard_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg206]
+type = straight
+surface = sand
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg207]
+type = hairpin_left
+surface = water
+noise = none
+length = 500
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg208]
+type = hard_right
+surface = water
+noise = none
+length = 540
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg209]
+type = hard_right
+surface = gravel
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg210]
+type = straight
+surface = sand
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg211]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg212]
+type = straight
+surface = asphalt
+noise = ocean
+length = 7000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg213]
+type = hard_right
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg214]
+type = straight
+surface = sand
+noise = none
+length = 1205
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg215]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 179.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg216]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 359
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg217]
+type = easy_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg218]
+type = left
+surface = sand
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg219]
+type = hard_left
+surface = gravel
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg220]
+type = hairpin_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg221]
+type = straight
+surface = sand
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg222]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg223]
+type = hard_right
+surface = sand
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg224]
+type = left
+surface = gravel
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg225]
+type = hairpin_left
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg226]
+type = hard_right
+surface = sand
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg227]
+type = straight
+surface = gravel
+noise = ocean
+length = 2090
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg228]
+type = easy_left
+surface = water
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg229]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg230]
+type = straight
+surface = asphalt
+noise = ocean
+length = 3950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg231]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg232]
+type = hairpin_right
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg233]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg234]
+type = straight
+surface = sand
+noise = crowd
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg235]
+type = straight
+surface = water
+noise = ocean
+length = 5000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg236]
+type = easy_left
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg237]
+type = straight
+surface = asphalt
+noise = crowd
+length = 4900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg238]
+type = hairpin_right
+surface = asphalt
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg239]
+type = hard_right
+surface = gravel
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg240]
+type = right
+surface = water
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg241]
+type = straight
+surface = sand
+noise = clock
+length = 5900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg242]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 595
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg243]
+type = hard_left
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg244]
+type = straight
+surface = asphalt
+noise = crowd
+length = 5900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg245]
+type = easy_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg246]
+type = left
+surface = gravel
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg247]
+type = hard_right
+surface = gravel
+noise = none
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg248]
+type = hard_left
+surface = gravel
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg249]
+type = easy_left
+surface = gravel
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg250]
+type = hard_right
+surface = water
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg251]
+type = straight
+surface = gravel
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg252]
+type = hairpin_right
+surface = water
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg253]
+type = hard_right
+surface = gravel
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg254]
+type = hard_left
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg255]
+type = easy_left
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg256]
+type = hard_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg257]
+type = straight
+surface = water
+noise = ocean
+length = 9900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg258]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg259]
+type = hard_left
+surface = gravel
+noise = none
+length = 2950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg260]
+type = right
+surface = gravel
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg261]
+type = straight
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg262]
+type = easy_left
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg263]
+type = easy_right
+surface = gravel
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg264]
+type = straight
+surface = asphalt
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg265]
+type = hard_right
+surface = gravel
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg266]
+type = left
+surface = gravel
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg267]
+type = hard_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg268]
+type = easy_left
+surface = water
+noise = none
+length = 1950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg269]
+type = straight
+surface = water
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg270]
+type = hard_right
+surface = water
+noise = none
+length = 460.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg271]
+type = hard_right
+surface = sand
+noise = none
+length = 4905
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg272]
+type = hairpin_right
+surface = water
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg273]
+type = easy_right
+surface = water
+noise = none
+length = 495
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg274]
+type = hard_right
+surface = gravel
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg275]
+type = hairpin_right
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg276]
+type = hard_left
+surface = water
+noise = none
+length = 4900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg277]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg278]
+type = left
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg279]
+type = hairpin_left
+surface = water
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg280]
+type = left
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg281]
+type = hairpin_right
+surface = water
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg282]
+type = right
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg283]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg284]
+type = straight
+surface = sand
+noise = crowd
+length = 4900
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg285]
+type = hard_left
+surface = water
+noise = none
+length = 380
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg286]
+type = left
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg287]
+type = hairpin_right
+surface = water
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg288]
+type = easy_left
+surface = sand
+noise = none
+length = 230
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg289]
+type = hairpin_right
+surface = water
+noise = none
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg290]
+type = right
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg291]
+type = left
+surface = sand
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg292]
+type = hairpin_left
+surface = sand
+noise = none
+length = 650
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg293]
+type = left
+surface = asphalt
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg294]
+type = hard_right
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg295]
+type = left
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg296]
+type = hard_right
+surface = gravel
+noise = none
+length = 210
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg297]
+type = hairpin_left
+surface = sand
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg298]
+type = right
+surface = water
+noise = none
+length = 795
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg299]
+type = easy_left
+surface = asphalt
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg300]
+type = hard_right
+surface = water
+noise = none
+length = 295
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg301]
+type = hard_left
+surface = water
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg302]
+type = hard_left
+surface = water
+noise = none
+length = 210
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg303]
+type = hard_right
+surface = water
+noise = none
+length = 395
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg304]
+type = straight
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg305]
+type = hairpin_left
+surface = sand
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg306]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg307]
+type = hard_left
+surface = water
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg308]
+type = left
+surface = water
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg309]
+type = hairpin_left
+surface = water
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg310]
+type = hard_left
+surface = water
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg311]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg312]
+type = easy_left
+surface = water
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg313]
+type = hairpin_left
+surface = water
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg314]
+type = left
+surface = gravel
+noise = none
+length = 80
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg315]
+type = hairpin_left
+surface = sand
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg316]
+type = easy_left
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg317]
+type = hairpin_left
+surface = sand
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg318]
+type = easy_left
+surface = sand
+noise = none
+length = 390
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg319]
+type = left
+surface = sand
+noise = none
+length = 5950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg320]
+type = hard_left
+surface = water
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg321]
+type = left
+surface = water
+noise = none
+length = 790
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg322]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg323]
+type = easy_left
+surface = gravel
+noise = none
+length = 980
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg324]
+type = hairpin_left
+surface = water
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg325]
+type = easy_left
+surface = water
+noise = none
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg326]
+type = straight
+surface = asphalt
+noise = ocean
+length = 3000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg327]
+type = easy_right
+surface = water
+noise = none
+length = 395
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg328]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 790
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg329]
+type = straight
+surface = gravel
+noise = clock
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg330]
+type = hard_right
+surface = gravel
+noise = none
+length = 195
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg331]
+type = straight
+surface = water
+noise = ocean
+length = 295
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg332]
+type = straight
+surface = asphalt
+noise = runway
+length = 70
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg333]
+type = hard_left
+surface = gravel
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg334]
+type = hard_right
+surface = gravel
+noise = none
+length = 459
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg335]
+type = hard_left
+surface = water
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg336]
+type = straight
+surface = water
+noise = clock
+length = 980
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg337]
+type = hairpin_left
+surface = water
+noise = none
+length = 59
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg338]
+type = straight
+surface = water
+noise = clock
+length = 490
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg339]
+type = straight
+surface = water
+noise = runway
+length = 985
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg340]
+type = hard_left
+surface = sand
+noise = none
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg341]
+type = hairpin_left
+surface = gravel
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg342]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg343]
+type = hard_right
+surface = water
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg344]
+type = easy_left
+surface = water
+noise = none
+length = 59
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg345]
+type = hard_left
+surface = water
+noise = none
+length = 190
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg346]
+type = left
+surface = water
+noise = none
+length = 175
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg347]
+type = hard_right
+surface = asphalt
+noise = none
+length = 130
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg348]
+type = hairpin_left
+surface = water
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg349]
+type = right
+surface = gravel
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg350]
+type = straight
+surface = asphalt
+noise = crowd
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg351]
+type = straight
+surface = gravel
+noise = ocean
+length = 950
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg352]
+type = straight
+surface = sand
+noise = runway
+length = 590
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg353]
+type = hairpin_left
+surface = water
+noise = none
+length = 95
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg354]
+type = hairpin_right
+surface = sand
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg355]
+type = hard_left
+surface = water
+noise = none
+length = 290
+width = 10
+height = 0
+room = outdoor_default

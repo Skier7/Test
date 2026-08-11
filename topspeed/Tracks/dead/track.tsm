@@ -1,0 +1,104 @@
+[meta]
+name = dead
+version = 1
+weather = default
+ambience = none
+
+[weather:default]
+kind = sunny
+longitudinal_wind_mps = 0
+lateral_wind_mps = 0
+air_density = 1.225
+drafting_factor = 1
+temperature_c = 22
+humidity = 0.45
+pressure_kpa = 101.325
+visibility_m = 20000
+rain_gain = 0
+wind_gain = 0
+storm_gain = 0
+
+[room:outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment:seg1]
+type = straight
+surface = asphalt
+noise = none
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg2]
+type = straight
+surface = asphalt
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg3]
+type = hard_left
+surface = asphalt
+noise = none
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg4]
+type = hard_left
+surface = sand
+noise = owl
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg5]
+type = hairpin_left
+surface = sand
+noise = none
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg6]
+type = right
+surface = water
+noise = none
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg7]
+type = hairpin_right
+surface = water
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg8]
+type = left
+surface = gravel
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg9]
+type = hairpin_left
+surface = asphalt
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default

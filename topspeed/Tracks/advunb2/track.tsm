@@ -1,0 +1,2903 @@
+[meta]
+name = advunb2
+version = 1
+weather = default
+ambience = airport
+
+[weather:default]
+kind = sunny
+longitudinal_wind_mps = 0
+lateral_wind_mps = 0
+air_density = 1.225
+drafting_factor = 1
+temperature_c = 22
+humidity = 0.45
+pressure_kpa = 101.325
+visibility_m = 20000
+rain_gain = 0
+wind_gain = 0
+storm_gain = 0
+
+[room:outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment:seg1]
+type = right
+surface = water
+noise = helicopter
+length = 79.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg2]
+type = hairpin_left
+surface = snow
+noise = river
+length = 54.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg3]
+type = hard_left
+surface = snow
+noise = thunder
+length = 65.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg4]
+type = hard_left
+surface = gravel
+noise = construction
+length = 58.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg5]
+type = straight
+surface = water
+noise = pile
+length = 57.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg6]
+type = hard_right
+surface = snow
+noise = jet
+length = 57.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg7]
+type = easy_right
+surface = water
+noise = jet
+length = 87.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg8]
+type = hairpin_left
+surface = gravel
+noise = crowd
+length = 75.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg9]
+type = hard_right
+surface = gravel
+noise = ocean
+length = 74.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg10]
+type = straight
+surface = water
+noise = clock
+length = 89.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg11]
+type = hairpin_right
+surface = gravel
+noise = clock
+length = 51.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg12]
+type = easy_left
+surface = water
+noise = crowd
+length = 64.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg13]
+type = easy_left
+surface = water
+noise = runway
+length = 68.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg14]
+type = straight
+surface = water
+noise = helicopter
+length = 87.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg15]
+type = left
+surface = gravel
+noise = runway
+length = 81.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg16]
+type = hairpin_right
+surface = snow
+noise = thunder
+length = 85.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg17]
+type = hairpin_left
+surface = gravel
+noise = helicopter
+length = 79.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg18]
+type = easy_right
+surface = snow
+noise = ocean
+length = 68.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg19]
+type = right
+surface = snow
+noise = ocean
+length = 77.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg20]
+type = left
+surface = water
+noise = pile
+length = 83.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg21]
+type = hard_right
+surface = snow
+noise = owl
+length = 70.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg22]
+type = hairpin_right
+surface = water
+noise = owl
+length = 67.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg23]
+type = easy_left
+surface = gravel
+noise = owl
+length = 88.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg24]
+type = hard_right
+surface = snow
+noise = helicopter
+length = 60.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg25]
+type = hard_right
+surface = gravel
+noise = owl
+length = 77.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg26]
+type = straight
+surface = water
+noise = jet
+length = 88.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg27]
+type = easy_left
+surface = gravel
+noise = pile
+length = 66.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg28]
+type = right
+surface = snow
+noise = crowd
+length = 64.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg29]
+type = easy_right
+surface = gravel
+noise = runway
+length = 52.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg30]
+type = easy_left
+surface = snow
+noise = ocean
+length = 59.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg31]
+type = easy_right
+surface = snow
+noise = clock
+length = 59.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg32]
+type = easy_right
+surface = water
+noise = crowd
+length = 58.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg33]
+type = hard_left
+surface = snow
+noise = helicopter
+length = 54.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg34]
+type = easy_right
+surface = water
+noise = construction
+length = 70.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg35]
+type = easy_right
+surface = snow
+noise = thunder
+length = 53.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg36]
+type = hairpin_left
+surface = water
+noise = jet
+length = 71.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg37]
+type = easy_left
+surface = water
+noise = pile
+length = 80.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg38]
+type = straight
+surface = water
+noise = river
+length = 88.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg39]
+type = hard_left
+surface = water
+noise = river
+length = 65.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg40]
+type = hairpin_left
+surface = gravel
+noise = owl
+length = 84.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg41]
+type = hard_right
+surface = gravel
+noise = pile
+length = 82.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg42]
+type = hairpin_right
+surface = snow
+noise = pile
+length = 60.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg43]
+type = hard_left
+surface = snow
+noise = crowd
+length = 52.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg44]
+type = hairpin_left
+surface = gravel
+noise = owl
+length = 62.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg45]
+type = easy_right
+surface = water
+noise = pile
+length = 79.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg46]
+type = hairpin_left
+surface = water
+noise = crowd
+length = 69.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg47]
+type = hairpin_left
+surface = snow
+noise = thunder
+length = 89.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg48]
+type = right
+surface = water
+noise = ocean
+length = 56.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg49]
+type = right
+surface = gravel
+noise = helicopter
+length = 81.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg50]
+type = straight
+surface = water
+noise = construction
+length = 65.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg51]
+type = hairpin_left
+surface = water
+noise = clock
+length = 69.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg52]
+type = straight
+surface = snow
+noise = pile
+length = 74.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg53]
+type = hard_left
+surface = water
+noise = helicopter
+length = 88.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg54]
+type = hairpin_right
+surface = gravel
+noise = construction
+length = 85.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg55]
+type = left
+surface = snow
+noise = river
+length = 80.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg56]
+type = hairpin_right
+surface = snow
+noise = ocean
+length = 56.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg57]
+type = hard_right
+surface = snow
+noise = owl
+length = 55.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg58]
+type = hard_right
+surface = gravel
+noise = ocean
+length = 51.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg59]
+type = hairpin_right
+surface = snow
+noise = pile
+length = 57.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg60]
+type = straight
+surface = gravel
+noise = ocean
+length = 51.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg61]
+type = left
+surface = snow
+noise = construction
+length = 82.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg62]
+type = right
+surface = water
+noise = clock
+length = 66.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg63]
+type = hairpin_left
+surface = snow
+noise = pile
+length = 82.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg64]
+type = easy_right
+surface = snow
+noise = clock
+length = 70.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg65]
+type = hard_left
+surface = gravel
+noise = crowd
+length = 87.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg66]
+type = hard_right
+surface = snow
+noise = construction
+length = 84.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg67]
+type = easy_right
+surface = water
+noise = owl
+length = 74.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg68]
+type = easy_left
+surface = water
+noise = ocean
+length = 88.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg69]
+type = left
+surface = gravel
+noise = river
+length = 56.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg70]
+type = easy_right
+surface = gravel
+noise = pile
+length = 66.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg71]
+type = right
+surface = gravel
+noise = ocean
+length = 55.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg72]
+type = hairpin_left
+surface = gravel
+noise = helicopter
+length = 54.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg73]
+type = right
+surface = water
+noise = owl
+length = 80.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg74]
+type = hard_left
+surface = snow
+noise = crowd
+length = 69.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg75]
+type = easy_left
+surface = water
+noise = helicopter
+length = 76.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg76]
+type = left
+surface = gravel
+noise = helicopter
+length = 85.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg77]
+type = left
+surface = gravel
+noise = pile
+length = 56.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg78]
+type = easy_left
+surface = snow
+noise = runway
+length = 60.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg79]
+type = left
+surface = snow
+noise = construction
+length = 51.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg80]
+type = straight
+surface = water
+noise = owl
+length = 54.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg81]
+type = easy_right
+surface = water
+noise = pile
+length = 55.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg82]
+type = easy_left
+surface = gravel
+noise = thunder
+length = 76.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg83]
+type = left
+surface = gravel
+noise = pile
+length = 70.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg84]
+type = easy_right
+surface = water
+noise = owl
+length = 54.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg85]
+type = hard_left
+surface = water
+noise = construction
+length = 62.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg86]
+type = hairpin_right
+surface = snow
+noise = runway
+length = 86.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg87]
+type = easy_right
+surface = gravel
+noise = river
+length = 82.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg88]
+type = hairpin_right
+surface = snow
+noise = runway
+length = 73.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg89]
+type = right
+surface = snow
+noise = crowd
+length = 58.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg90]
+type = left
+surface = snow
+noise = thunder
+length = 56.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg91]
+type = hard_right
+surface = gravel
+noise = crowd
+length = 83.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg92]
+type = straight
+surface = gravel
+noise = crowd
+length = 60.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg93]
+type = hard_left
+surface = snow
+noise = construction
+length = 53.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg94]
+type = hairpin_right
+surface = water
+noise = river
+length = 85.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg95]
+type = hard_right
+surface = gravel
+noise = thunder
+length = 82.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg96]
+type = hard_left
+surface = snow
+noise = helicopter
+length = 83.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg97]
+type = hard_left
+surface = water
+noise = thunder
+length = 89.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg98]
+type = easy_left
+surface = snow
+noise = clock
+length = 50.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg99]
+type = easy_left
+surface = gravel
+noise = owl
+length = 87.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg100]
+type = hard_right
+surface = snow
+noise = ocean
+length = 51.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg101]
+type = hairpin_left
+surface = gravel
+noise = ocean
+length = 59.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg102]
+type = hard_left
+surface = gravel
+noise = jet
+length = 58.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg103]
+type = hairpin_right
+surface = snow
+noise = ocean
+length = 67
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg104]
+type = hairpin_right
+surface = snow
+noise = thunder
+length = 75.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg105]
+type = easy_right
+surface = water
+noise = pile
+length = 70.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg106]
+type = hard_right
+surface = water
+noise = pile
+length = 81.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg107]
+type = straight
+surface = gravel
+noise = thunder
+length = 58.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg108]
+type = hairpin_left
+surface = gravel
+noise = helicopter
+length = 63.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg109]
+type = easy_left
+surface = snow
+noise = thunder
+length = 77.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg110]
+type = hard_right
+surface = water
+noise = owl
+length = 62.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg111]
+type = left
+surface = snow
+noise = pile
+length = 71.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg112]
+type = straight
+surface = water
+noise = owl
+length = 56.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg113]
+type = hard_left
+surface = gravel
+noise = crowd
+length = 76.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg114]
+type = right
+surface = snow
+noise = runway
+length = 53.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg115]
+type = hard_right
+surface = water
+noise = ocean
+length = 82.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg116]
+type = hairpin_left
+surface = snow
+noise = river
+length = 60.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg117]
+type = easy_left
+surface = gravel
+noise = river
+length = 56.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg118]
+type = right
+surface = gravel
+noise = runway
+length = 89.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg119]
+type = hairpin_right
+surface = gravel
+noise = river
+length = 81.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg120]
+type = hairpin_right
+surface = gravel
+noise = clock
+length = 83.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg121]
+type = easy_right
+surface = snow
+noise = thunder
+length = 89.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg122]
+type = hard_left
+surface = gravel
+noise = ocean
+length = 69.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg123]
+type = hairpin_left
+surface = water
+noise = river
+length = 68.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg124]
+type = right
+surface = water
+noise = jet
+length = 88.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg125]
+type = right
+surface = gravel
+noise = crowd
+length = 69.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg126]
+type = hard_right
+surface = water
+noise = jet
+length = 60.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg127]
+type = hard_left
+surface = gravel
+noise = river
+length = 50.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg128]
+type = left
+surface = gravel
+noise = jet
+length = 70.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg129]
+type = easy_right
+surface = snow
+noise = helicopter
+length = 89.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg130]
+type = easy_left
+surface = snow
+noise = ocean
+length = 57.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg131]
+type = hard_left
+surface = gravel
+noise = pile
+length = 66.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg132]
+type = hairpin_left
+surface = water
+noise = construction
+length = 77.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg133]
+type = hard_right
+surface = gravel
+noise = construction
+length = 81.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg134]
+type = hard_left
+surface = gravel
+noise = owl
+length = 52.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg135]
+type = hairpin_left
+surface = gravel
+noise = construction
+length = 64.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg136]
+type = hard_left
+surface = water
+noise = ocean
+length = 69.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg137]
+type = hairpin_left
+surface = snow
+noise = river
+length = 86.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg138]
+type = hairpin_left
+surface = gravel
+noise = clock
+length = 64.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg139]
+type = left
+surface = water
+noise = clock
+length = 56.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg140]
+type = hard_right
+surface = snow
+noise = helicopter
+length = 83.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg141]
+type = hairpin_right
+surface = gravel
+noise = clock
+length = 53.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg142]
+type = hairpin_right
+surface = water
+noise = construction
+length = 80.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg143]
+type = right
+surface = water
+noise = clock
+length = 86.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg144]
+type = easy_left
+surface = gravel
+noise = construction
+length = 85.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg145]
+type = hairpin_left
+surface = water
+noise = helicopter
+length = 88.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg146]
+type = hairpin_left
+surface = snow
+noise = ocean
+length = 69.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg147]
+type = left
+surface = gravel
+noise = crowd
+length = 80.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg148]
+type = hairpin_left
+surface = snow
+noise = river
+length = 59.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg149]
+type = right
+surface = snow
+noise = helicopter
+length = 52.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg150]
+type = right
+surface = gravel
+noise = jet
+length = 55.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg151]
+type = easy_left
+surface = snow
+noise = construction
+length = 54.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg152]
+type = hard_right
+surface = gravel
+noise = thunder
+length = 84.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg153]
+type = right
+surface = snow
+noise = construction
+length = 69.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg154]
+type = hairpin_right
+surface = gravel
+noise = runway
+length = 78.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg155]
+type = right
+surface = gravel
+noise = river
+length = 57.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg156]
+type = right
+surface = gravel
+noise = pile
+length = 65.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg157]
+type = left
+surface = gravel
+noise = pile
+length = 83.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg158]
+type = hard_left
+surface = gravel
+noise = thunder
+length = 71.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg159]
+type = left
+surface = snow
+noise = clock
+length = 56.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg160]
+type = hard_right
+surface = gravel
+noise = jet
+length = 79.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg161]
+type = right
+surface = gravel
+noise = owl
+length = 56.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg162]
+type = straight
+surface = snow
+noise = pile
+length = 65.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg163]
+type = easy_left
+surface = gravel
+noise = runway
+length = 83.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg164]
+type = straight
+surface = gravel
+noise = jet
+length = 73.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg165]
+type = straight
+surface = water
+noise = clock
+length = 50.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg166]
+type = hard_left
+surface = water
+noise = clock
+length = 89.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg167]
+type = right
+surface = snow
+noise = clock
+length = 62
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg168]
+type = right
+surface = water
+noise = ocean
+length = 64.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg169]
+type = straight
+surface = gravel
+noise = helicopter
+length = 52.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg170]
+type = right
+surface = water
+noise = construction
+length = 89.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg171]
+type = left
+surface = snow
+noise = clock
+length = 51.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg172]
+type = hard_right
+surface = water
+noise = jet
+length = 65.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg173]
+type = straight
+surface = snow
+noise = construction
+length = 85.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg174]
+type = left
+surface = snow
+noise = runway
+length = 76.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg175]
+type = hard_right
+surface = water
+noise = runway
+length = 85.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg176]
+type = easy_right
+surface = water
+noise = ocean
+length = 79.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg177]
+type = hairpin_left
+surface = water
+noise = jet
+length = 64.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg178]
+type = hard_left
+surface = snow
+noise = pile
+length = 82.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg179]
+type = hairpin_right
+surface = water
+noise = river
+length = 80.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg180]
+type = easy_right
+surface = gravel
+noise = runway
+length = 62.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg181]
+type = left
+surface = snow
+noise = construction
+length = 77.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg182]
+type = hard_left
+surface = water
+noise = runway
+length = 53.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg183]
+type = hard_right
+surface = water
+noise = construction
+length = 51.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg184]
+type = hard_left
+surface = gravel
+noise = clock
+length = 90.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg185]
+type = hairpin_right
+surface = snow
+noise = river
+length = 70.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg186]
+type = easy_right
+surface = gravel
+noise = clock
+length = 60.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg187]
+type = hairpin_right
+surface = gravel
+noise = crowd
+length = 67.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg188]
+type = right
+surface = water
+noise = crowd
+length = 62.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg189]
+type = hard_left
+surface = gravel
+noise = clock
+length = 62.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg190]
+type = straight
+surface = water
+noise = owl
+length = 57.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg191]
+type = easy_left
+surface = snow
+noise = pile
+length = 61.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg192]
+type = left
+surface = snow
+noise = owl
+length = 77.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg193]
+type = right
+surface = gravel
+noise = construction
+length = 63.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg194]
+type = easy_right
+surface = snow
+noise = pile
+length = 56.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg195]
+type = left
+surface = gravel
+noise = owl
+length = 78.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg196]
+type = hairpin_left
+surface = water
+noise = owl
+length = 63.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg197]
+type = hairpin_left
+surface = gravel
+noise = helicopter
+length = 66.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg198]
+type = hard_left
+surface = water
+noise = helicopter
+length = 62.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg199]
+type = hairpin_right
+surface = snow
+noise = jet
+length = 79
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg200]
+type = hairpin_left
+surface = gravel
+noise = ocean
+length = 79.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg201]
+type = hairpin_right
+surface = water
+noise = ocean
+length = 53.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg202]
+type = easy_left
+surface = water
+noise = ocean
+length = 87.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg203]
+type = easy_right
+surface = water
+noise = crowd
+length = 60.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg204]
+type = hairpin_left
+surface = snow
+noise = river
+length = 74.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg205]
+type = hairpin_right
+surface = gravel
+noise = jet
+length = 63.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg206]
+type = hairpin_right
+surface = gravel
+noise = owl
+length = 58.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg207]
+type = left
+surface = water
+noise = ocean
+length = 63.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg208]
+type = easy_right
+surface = gravel
+noise = ocean
+length = 54.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg209]
+type = hard_right
+surface = water
+noise = thunder
+length = 51.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg210]
+type = hard_right
+surface = water
+noise = thunder
+length = 69.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg211]
+type = easy_right
+surface = water
+noise = clock
+length = 73.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg212]
+type = easy_left
+surface = gravel
+noise = thunder
+length = 76.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg213]
+type = hairpin_left
+surface = snow
+noise = crowd
+length = 61.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg214]
+type = right
+surface = snow
+noise = pile
+length = 80.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg215]
+type = easy_right
+surface = gravel
+noise = pile
+length = 66.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg216]
+type = hard_right
+surface = water
+noise = helicopter
+length = 76.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg217]
+type = left
+surface = snow
+noise = clock
+length = 79.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg218]
+type = hard_right
+surface = water
+noise = clock
+length = 86.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg219]
+type = easy_right
+surface = snow
+noise = owl
+length = 73.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg220]
+type = hard_left
+surface = water
+noise = crowd
+length = 73.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg221]
+type = hairpin_left
+surface = snow
+noise = river
+length = 64.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg222]
+type = hairpin_right
+surface = gravel
+noise = river
+length = 77.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg223]
+type = hard_right
+surface = gravel
+noise = helicopter
+length = 81.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg224]
+type = straight
+surface = gravel
+noise = crowd
+length = 69.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg225]
+type = hard_right
+surface = water
+noise = construction
+length = 78.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg226]
+type = hairpin_right
+surface = water
+noise = ocean
+length = 86.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg227]
+type = right
+surface = snow
+noise = jet
+length = 58.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg228]
+type = left
+surface = water
+noise = owl
+length = 52.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg229]
+type = hairpin_left
+surface = snow
+noise = owl
+length = 62.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg230]
+type = hairpin_left
+surface = snow
+noise = pile
+length = 85.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg231]
+type = hard_left
+surface = gravel
+noise = helicopter
+length = 81.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg232]
+type = left
+surface = snow
+noise = clock
+length = 85.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg233]
+type = left
+surface = water
+noise = ocean
+length = 54.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg234]
+type = left
+surface = water
+noise = pile
+length = 70.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg235]
+type = easy_right
+surface = snow
+noise = jet
+length = 68.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg236]
+type = right
+surface = gravel
+noise = jet
+length = 62.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg237]
+type = straight
+surface = snow
+noise = thunder
+length = 57.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg238]
+type = hairpin_right
+surface = gravel
+noise = construction
+length = 72.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg239]
+type = straight
+surface = gravel
+noise = helicopter
+length = 86.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg240]
+type = hard_left
+surface = gravel
+noise = helicopter
+length = 63.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg241]
+type = hairpin_right
+surface = water
+noise = clock
+length = 51.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg242]
+type = right
+surface = snow
+noise = ocean
+length = 70.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg243]
+type = easy_right
+surface = snow
+noise = river
+length = 67.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg244]
+type = hairpin_right
+surface = water
+noise = runway
+length = 56.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg245]
+type = easy_right
+surface = gravel
+noise = pile
+length = 74.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg246]
+type = hairpin_right
+surface = snow
+noise = runway
+length = 75.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg247]
+type = hard_right
+surface = snow
+noise = ocean
+length = 86.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg248]
+type = hard_right
+surface = snow
+noise = pile
+length = 89.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg249]
+type = straight
+surface = gravel
+noise = jet
+length = 83.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg250]
+type = hard_left
+surface = water
+noise = thunder
+length = 59.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg251]
+type = straight
+surface = water
+noise = crowd
+length = 83.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg252]
+type = easy_right
+surface = gravel
+noise = river
+length = 70.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg253]
+type = left
+surface = water
+noise = pile
+length = 61.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg254]
+type = easy_left
+surface = gravel
+noise = clock
+length = 78.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg255]
+type = hard_right
+surface = gravel
+noise = thunder
+length = 75.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg256]
+type = hard_left
+surface = water
+noise = crowd
+length = 84.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg257]
+type = hard_left
+surface = water
+noise = construction
+length = 84.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg258]
+type = hairpin_left
+surface = snow
+noise = runway
+length = 71.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg259]
+type = easy_left
+surface = water
+noise = owl
+length = 79.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg260]
+type = hard_right
+surface = water
+noise = pile
+length = 53.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg261]
+type = easy_left
+surface = snow
+noise = jet
+length = 73.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg262]
+type = easy_right
+surface = water
+noise = thunder
+length = 69.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg263]
+type = hard_left
+surface = snow
+noise = ocean
+length = 85.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg264]
+type = hard_right
+surface = snow
+noise = pile
+length = 74.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg265]
+type = straight
+surface = snow
+noise = runway
+length = 75.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg266]
+type = left
+surface = snow
+noise = ocean
+length = 88.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg267]
+type = left
+surface = water
+noise = ocean
+length = 83.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg268]
+type = right
+surface = snow
+noise = owl
+length = 57.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg269]
+type = hard_right
+surface = gravel
+noise = runway
+length = 79.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg270]
+type = straight
+surface = water
+noise = jet
+length = 59.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg271]
+type = straight
+surface = gravel
+noise = crowd
+length = 56.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg272]
+type = right
+surface = snow
+noise = river
+length = 56.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg273]
+type = hairpin_right
+surface = gravel
+noise = jet
+length = 78.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg274]
+type = easy_right
+surface = water
+noise = river
+length = 71.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg275]
+type = hard_left
+surface = water
+noise = ocean
+length = 58.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg276]
+type = right
+surface = gravel
+noise = jet
+length = 76.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg277]
+type = left
+surface = gravel
+noise = thunder
+length = 60.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg278]
+type = easy_right
+surface = water
+noise = jet
+length = 60.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg279]
+type = left
+surface = gravel
+noise = construction
+length = 52.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg280]
+type = right
+surface = gravel
+noise = runway
+length = 88.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg281]
+type = straight
+surface = snow
+noise = ocean
+length = 85.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg282]
+type = straight
+surface = gravel
+noise = ocean
+length = 55.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg283]
+type = easy_right
+surface = water
+noise = owl
+length = 85.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg284]
+type = hard_right
+surface = water
+noise = jet
+length = 60.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg285]
+type = easy_right
+surface = water
+noise = crowd
+length = 85.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg286]
+type = hairpin_right
+surface = gravel
+noise = clock
+length = 68.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg287]
+type = right
+surface = water
+noise = clock
+length = 62.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg288]
+type = easy_right
+surface = water
+noise = pile
+length = 74.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg289]
+type = right
+surface = snow
+noise = runway
+length = 71.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg290]
+type = hairpin_right
+surface = snow
+noise = owl
+length = 86.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg291]
+type = hairpin_left
+surface = gravel
+noise = helicopter
+length = 75.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg292]
+type = left
+surface = gravel
+noise = construction
+length = 67.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg293]
+type = left
+surface = water
+noise = river
+length = 63.3
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg294]
+type = hairpin_right
+surface = snow
+noise = pile
+length = 89.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg295]
+type = hard_left
+surface = snow
+noise = runway
+length = 69.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg296]
+type = hairpin_right
+surface = water
+noise = construction
+length = 79.8
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg297]
+type = easy_left
+surface = water
+noise = runway
+length = 51.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg298]
+type = hard_left
+surface = snow
+noise = river
+length = 53.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg299]
+type = left
+surface = snow
+noise = clock
+length = 60.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg300]
+type = easy_right
+surface = water
+noise = construction
+length = 73.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg301]
+type = hairpin_left
+surface = water
+noise = clock
+length = 83.1
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg302]
+type = easy_left
+surface = gravel
+noise = helicopter
+length = 55.9
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg303]
+type = left
+surface = snow
+noise = helicopter
+length = 70.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg304]
+type = hard_right
+surface = snow
+noise = crowd
+length = 82.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg305]
+type = easy_left
+surface = gravel
+noise = river
+length = 71.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg306]
+type = hard_right
+surface = snow
+noise = owl
+length = 77.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg307]
+type = hairpin_left
+surface = gravel
+noise = construction
+length = 70.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg308]
+type = right
+surface = snow
+noise = pile
+length = 69.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg309]
+type = hairpin_right
+surface = gravel
+noise = crowd
+length = 55.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg310]
+type = easy_right
+surface = snow
+noise = pile
+length = 75.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg311]
+type = hairpin_right
+surface = snow
+noise = ocean
+length = 76.4
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg312]
+type = hard_left
+surface = gravel
+noise = runway
+length = 75.5
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg313]
+type = easy_right
+surface = snow
+noise = runway
+length = 81.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg314]
+type = easy_right
+surface = water
+noise = ocean
+length = 88.7
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg315]
+type = hairpin_left
+surface = snow
+noise = crowd
+length = 50.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg316]
+type = right
+surface = snow
+noise = helicopter
+length = 66.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg317]
+type = hairpin_right
+surface = snow
+noise = ocean
+length = 64.0
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg318]
+type = hard_left
+surface = water
+noise = clock
+length = 70.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg319]
+type = left
+surface = water
+noise = helicopter
+length = 88.2
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg320]
+type = straight
+surface = water
+noise = ocean
+length = 50.9
+width = 10
+height = 0
+room = outdoor_default

@@ -1,0 +1,572 @@
+[meta]
+name = advRollercoasterLevel2
+version = 1
+weather = default
+ambience = airport
+
+[weather:default]
+kind = wind
+longitudinal_wind_mps = 5
+lateral_wind_mps = 7
+air_density = 1.225
+drafting_factor = 1
+temperature_c = 18
+humidity = 0.5
+pressure_kpa = 101.0
+visibility_m = 18000
+rain_gain = 0
+wind_gain = 0.7
+storm_gain = 0
+
+[room:outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment:seg1]
+type = straight
+surface = asphalt
+noise = none
+length = 320
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg2]
+type = straight
+surface = asphalt
+noise = crowd
+length = 2150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg3]
+type = straight
+surface = asphalt
+noise = construction
+length = 3150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg4]
+type = straight
+surface = snow
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg5]
+type = left
+surface = snow
+noise = crowd
+length = 215
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg6]
+type = easy_left
+surface = snow
+noise = none
+length = 320
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg7]
+type = hairpin_left
+surface = snow
+noise = none
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg8]
+type = right
+surface = snow
+noise = crowd
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg9]
+type = straight
+surface = snow
+noise = jet
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg10]
+type = hairpin_left
+surface = snow
+noise = none
+length = 850
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg11]
+type = hairpin_right
+surface = snow
+noise = owl
+length = 750
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg12]
+type = hard_left
+surface = snow
+noise = construction
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg13]
+type = easy_left
+surface = snow
+noise = crowd
+length = 550
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg14]
+type = hard_right
+surface = snow
+noise = thunder
+length = 450
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg15]
+type = easy_left
+surface = snow
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg16]
+type = easy_right
+surface = snow
+noise = runway
+length = 980
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg17]
+type = hard_left
+surface = snow
+noise = clock
+length = 460
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg18]
+type = straight
+surface = snow
+noise = jet
+length = 1250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg19]
+type = hairpin_left
+surface = snow
+noise = thunder
+length = 620
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg20]
+type = hard_right
+surface = snow
+noise = helicopter
+length = 320
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg21]
+type = left
+surface = snow
+noise = crowd
+length = 340
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg22]
+type = easy_right
+surface = snow
+noise = pile
+length = 310
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg23]
+type = right
+surface = snow
+noise = clock
+length = 560
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg24]
+type = hard_right
+surface = snow
+noise = construction
+length = 520
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg25]
+type = hairpin_right
+surface = snow
+noise = crowd
+length = 480
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg26]
+type = hairpin_left
+surface = snow
+noise = pile
+length = 530
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg27]
+type = hard_left
+surface = snow
+noise = crowd
+length = 430
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg28]
+type = left
+surface = snow
+noise = construction
+length = 440
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg29]
+type = easy_left
+surface = snow
+noise = pile
+length = 400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg30]
+type = straight
+surface = snow
+noise = thunder
+length = 120
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg31]
+type = hairpin_right
+surface = snow
+noise = crowd
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg32]
+type = right
+surface = snow
+noise = none
+length = 120
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg33]
+type = left
+surface = snow
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg34]
+type = right
+surface = snow
+noise = none
+length = 120
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg35]
+type = hard_left
+surface = snow
+noise = none
+length = 480
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg36]
+type = easy_right
+surface = snow
+noise = none
+length = 340
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg37]
+type = left
+surface = snow
+noise = thunder
+length = 140
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg38]
+type = easy_right
+surface = snow
+noise = none
+length = 160
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg39]
+type = easy_right
+surface = snow
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg40]
+type = hard_right
+surface = snow
+noise = none
+length = 640
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg41]
+type = hairpin_left
+surface = snow
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg42]
+type = hard_left
+surface = snow
+noise = clock
+length = 680
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg43]
+type = easy_right
+surface = snow
+noise = crowd
+length = 440
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg44]
+type = hairpin_left
+surface = snow
+noise = thunder
+length = 230
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg45]
+type = easy_left
+surface = snow
+noise = runway
+length = 1250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg46]
+type = hairpin_right
+surface = snow
+noise = pile
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg47]
+type = hard_right
+surface = snow
+noise = none
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg48]
+type = right
+surface = snow
+noise = none
+length = 180
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg49]
+type = easy_right
+surface = snow
+noise = none
+length = 150
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg50]
+type = straight
+surface = snow
+noise = pile
+length = 320
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg51]
+type = easy_left
+surface = snow
+noise = pile
+length = 410
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg52]
+type = left
+surface = snow
+noise = none
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg53]
+type = hard_left
+surface = snow
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg54]
+type = hairpin_right
+surface = snow
+noise = crowd
+length = 360
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg55]
+type = hard_left
+surface = snow
+noise = pile
+length = 410
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg56]
+type = straight
+surface = snow
+noise = owl
+length = 320
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg57]
+type = straight
+surface = snow
+noise = crowd
+length = 320
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg58]
+type = straight
+surface = snow
+noise = river
+length = 850
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg59]
+type = straight
+surface = snow
+noise = jet
+length = 700
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg60]
+type = straight
+surface = snow
+noise = thunder
+length = 82
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg61]
+type = straight
+surface = asphalt
+noise = none
+length = 4200
+width = 10
+height = 0
+room = outdoor_default

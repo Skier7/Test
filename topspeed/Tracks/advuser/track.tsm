@@ -1,0 +1,392 @@
+[meta]
+name = advuser
+version = 1
+weather = default
+ambience = none
+
+[weather:default]
+kind = sunny
+longitudinal_wind_mps = 0
+lateral_wind_mps = 0
+air_density = 1.225
+drafting_factor = 1
+temperature_c = 22
+humidity = 0.45
+pressure_kpa = 101.325
+visibility_m = 20000
+rain_gain = 0
+wind_gain = 0
+storm_gain = 0
+
+[room:outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment:seg1]
+type = straight
+surface = asphalt
+noise = clock
+length = 400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg2]
+type = hard_left
+surface = asphalt
+noise = runway
+length = 455
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg3]
+type = straight
+surface = sand
+noise = none
+length = 100
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg4]
+type = hairpin_right
+surface = water
+noise = crowd
+length = 357
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg5]
+type = straight
+surface = gravel
+noise = helicopter
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg6]
+type = hard_right
+surface = asphalt
+noise = construction
+length = 500
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg7]
+type = hairpin_left
+surface = asphalt
+noise = clock
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg8]
+type = hard_left
+surface = asphalt
+noise = none
+length = 345.6
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg9]
+type = left
+surface = asphalt
+noise = crowd
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg10]
+type = right
+surface = asphalt
+noise = none
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg11]
+type = hard_left
+surface = asphalt
+noise = none
+length = 500
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg12]
+type = right
+surface = asphalt
+noise = none
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg13]
+type = hairpin_right
+surface = asphalt
+noise = jet
+length = 400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg14]
+type = straight
+surface = gravel
+noise = crowd
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg15]
+type = hairpin_left
+surface = sand
+noise = clock
+length = 350
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg16]
+type = left
+surface = asphalt
+noise = none
+length = 50
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg17]
+type = right
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg18]
+type = left
+surface = asphalt
+noise = none
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg19]
+type = right
+surface = asphalt
+noise = none
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg20]
+type = left
+surface = asphalt
+noise = none
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg21]
+type = hairpin_right
+surface = asphalt
+noise = jet
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg22]
+type = hard_left
+surface = asphalt
+noise = helicopter
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg23]
+type = hard_right
+surface = water
+noise = ocean
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg24]
+type = straight
+surface = gravel
+noise = runway
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg25]
+type = hairpin_right
+surface = asphalt
+noise = construction
+length = 220
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg26]
+type = easy_right
+surface = asphalt
+noise = pile
+length = 700
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg27]
+type = easy_left
+surface = asphalt
+noise = helicopter
+length = 430
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg28]
+type = hairpin_left
+surface = asphalt
+noise = crowd
+length = 650
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg29]
+type = straight
+surface = gravel
+noise = crowd
+length = 3000
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg30]
+type = hard_right
+surface = asphalt
+noise = construction
+length = 600
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg31]
+type = hard_left
+surface = sand
+noise = owl
+length = 400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg32]
+type = hard_left
+surface = water
+noise = ocean
+length = 650
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg33]
+type = hard_right
+surface = gravel
+noise = runway
+length = 340
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg34]
+type = hard_left
+surface = sand
+noise = crowd
+length = 300
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg35]
+type = right
+surface = snow
+noise = clock
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg36]
+type = easy_left
+surface = water
+noise = river
+length = 400
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg37]
+type = hairpin_left
+surface = gravel
+noise = crowd
+length = 200
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg38]
+type = hairpin_right
+surface = asphalt
+noise = construction
+length = 250
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg39]
+type = hairpin_left
+surface = sand
+noise = owl
+length = 455
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg40]
+type = straight
+surface = asphalt
+noise = clock
+length = 600
+width = 10
+height = 0
+room = outdoor_default
+
+[segment:seg41]
+type = hairpin_left
+surface = asphalt
+noise = helicopter
+length = 500
+width = 10
+height = 0
+room = outdoor_default

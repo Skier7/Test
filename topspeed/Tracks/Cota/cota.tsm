@@ -1,0 +1,236 @@
+[meta]
+name = Circuit of the Americas. Circuit of the Americas is an iconic road course located in Austin, Texas. Formula 1 and Nascar have both raced here in recent years.
+version = 1
+weather = default
+ambience = noambience
+
+[weather: default]
+kind = sunny
+longitudinal_wind_mps = 0
+lateral_wind_mps = 0
+air_density = 1.201
+drafting_factor = 0.7
+temperature_c = 22
+humidity = 0.45
+pressure_kpa = 101.325
+visibility_m = 20000
+rain_gain = 0
+wind_gain = 0
+storm_gain = 0
+[sound_ambient:cars]
+path = road.ogg
+loop = true
+volume = 0.6
+spatial = false
+Global = True
+
+[room: outdoor_default]
+room_preset = outdoor_open
+reverb_gain = 0.1
+
+[segment: seg1]
+type = 0
+surface = 0
+noise = 0
+length = 260
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg2]
+type = 4
+surface = 0
+noise = 0
+length = 159
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg3]
+type = 6
+surface = 0
+noise = 0
+length = 263
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg4]
+type = 2
+surface = 0
+noise = 0
+length = 227
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg5]
+type = 6
+surface = 0
+noise = 0
+length = 213
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg6]
+type = 2
+surface = 0
+noise = 0
+length = 178
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg7]
+type = 6
+surface = 0
+noise = 0
+length = 185
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg8]
+type = 2
+surface = 0
+noise = 0
+length = 141
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg9]
+type = 6
+surface = 0
+noise = 0
+length = 145
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg10]
+type = 2
+surface = 0
+noise = 0
+length = 141
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg11]
+type = 1
+surface = 0
+noise = 0
+length = 103
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg12]
+type = 4
+surface = 0
+noise = 0
+length = 145
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg13]
+type = 0
+surface = 0
+noise = 1
+length = 1014
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg14]
+type = 4
+surface = 0
+noise = 0
+length = 90
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg15]
+type = 6
+surface = 0
+noise = 0
+length = 123
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg16]
+type = 7
+surface = 0
+noise = 0
+length = 110
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg17]
+type = 7
+surface = 0
+noise = 0
+length = 88
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg18]
+type = 6
+surface = 0
+noise = 0
+length = 144
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg19]
+type = 7
+surface = 0
+noise = 0
+length = 125
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg20]
+type = 3
+surface = 0
+noise = 0
+length = 162
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg21]
+type = 3
+surface = 0
+noise = 0
+length = 154
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg22]
+type = 2
+surface = 0
+noise = 0
+length = 131
+width = 10
+height = 0
+room = outdoor_default
+
+[segment: seg23]
+type = 0
+surface = 0
+noise = 0
+length = 1100
+width = 10
+height = 0
+room = outdoor_default
