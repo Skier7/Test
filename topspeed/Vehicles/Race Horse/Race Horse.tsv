@@ -1,0 +1,128 @@
+#top speed vehicle file
+[meta]
+Name = Race Horse
+description = A super charged horse because the values for a normal horse were to low.
+version = 2
+
+[sounds]
+engine=HorseRun.ogg
+start=HorseStart.ogg
+brake=builtin1
+crash=HorseCrash.ogg
+horn=HorseHorn.ogg
+backfire=HorseBackfire.ogg
+idle_freq=25300
+top_freq=95000
+shift_freq=40000
+
+[general]
+surface_traction_factor = 0.40
+max_speed = 274
+has_wipers = 0
+
+[engine]
+idle_rpm = 800
+max_rpm = 8000
+rev_limiter = 7800
+auto_shift_rpm = 0
+engine_braking = 0.30
+mass_kg = 600
+drivetrain_efficiency = 0.92
+launch_rpm = 1800
+fuel = 70
+engine_displacement_l = 8.0
+
+[torque]
+engine_braking_torque = 100
+peak_torque = 1200
+peak_torque_rpm = 5000
+idle_torque = 250
+redline_torque = 850
+power_factor = 1.80
+
+[torque_curve]
+preset = supercar_turbo
+800rpm = 250
+1500rpm = 400
+2500rpm = 700
+3500rpm = 950
+4500rpm = 1150
+5000rpm = 1200
+6000rpm = 1100
+7000rpm = 950
+7800rpm = 850
+
+[engine_rot]
+inertia_kgm2 = 0.20
+coupling_rate = 40.0
+friction_base_nm = 12
+friction_linear_nm_per_krpm = 7
+friction_quadratic_nm_per_krpm2 = 2.5
+idle_control_window_rpm = 250
+idle_control_gain_nm_per_rpm = 0.30
+min_coupled_rise_idle_rpm_per_s = 700
+min_coupled_rise_full_rpm_per_s = 5000
+overrun_idle_fraction = 0.18
+overrun_curve_exponent = 1.6
+brake_transfer_efficiency = 0.75
+
+[resistance]
+drag_coefficient = 0.55
+frontal_area = 0.65
+side_area = 1.5
+rolling_resistance = 0.004
+rolling_speed_factor = 0.15
+wheel_side_drag_n = 8
+wheel_side_drag_linear_n_per_mps = 0.35
+driveline_drag_nm = 5
+driveline_viscous_drag_nm_per_krpm = 1.5
+
+[transmission]
+primary_type = manual
+supported_types = manual
+
+[drivetrain]
+final_drive = 3.50
+reverse_max_speed = 20
+reverse_power_factor = 0.25
+reverse_gear_ratio = 3.50
+brake_strength = 3.00
+
+[gears]
+number_of_gears = 1
+gear_ratios = 1.22
+
+[tire_model]
+tire_grip = 3.0
+lateral_grip = 3.00
+combined_grip_penalty = 0.65
+slip_angle_peak_deg = 8
+slip_angle_falloff = 1.2
+turn_response = 1.00
+mass_sensitivity = 0.70
+downforce_grip_gain = 0.03
+
+[steering]
+steering_response = 1.00
+high_speed_stability = 1.0
+high_speed_steer_gain = 0.82
+high_speed_steer_start_kph = 100
+high_speed_steer_full_kph = 280
+wheelbase = 2.00
+max_steer_deg = 30
+
+[dynamics]
+corner_stiffness_front = 0.90
+corner_stiffness_rear = 0.95
+yaw_inertia_scale = 0.90
+steering_curve = 1.05
+transient_damping = 1.50
+
+[dimensions]
+vehicle_width = 0.70
+vehicle_length = 2.50
+
+[tires]
+tire_width = 250
+tire_aspect = 45
+tire_rim = 18

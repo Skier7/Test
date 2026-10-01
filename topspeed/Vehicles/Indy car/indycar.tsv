@@ -43,7 +43,7 @@ power_factor=1.50
 
 [engine_rot]
 inertia_kgm2=0.12 
-coupling_rate=30
+coupling_rate=50
 friction_base_nm=15
 friction_linear_nm_per_krpm=0
 friction_quadratic_nm_per_krpm2=0
@@ -59,7 +59,7 @@ brake_transfer_efficiency=0.95
 drag_coefficient=0.18
 frontal_area=1.40
 Side_area=1.50
-rolling_resistance=0.008
+rolling_resistance=0.004
 rolling_speed_factor=0.3
 wheel_side_drag_n=50
 wheel_side_drag_linear_n_per_mps=1.5
@@ -73,7 +73,17 @@ preset=supercar_turbo
 
 [transmission]
 primary_type=manual
-supported_types=manual
+supported_types=manual,dct
+shift_on_demand=1
+
+[transmission_dct]
+launch_coupling_min=0.25
+launch_coupling_max=1.00
+lock_speed_kph=30.0
+lock_throttle_min=0.25
+shift_overlap_coupling=0.90
+engage_rate=55.0
+disengage_rate=65.0
 
 [drivetrain]
 final_drive=2.85
@@ -120,3 +130,19 @@ vehicle_length=5.10
 tire_width=320
 tire_aspect=35
 tire_rim=15
+
+[policy]
+top_speed_gear=5
+allow_overdrive_above_game_top_speed=true
+
+base_auto_shift_cooldown=0.08
+upshift_delay_default=0.05
+
+auto_upshift_rpm=11850
+auto_downshift_rpm=8500
+
+top_speed_pursuit_speed_fraction=0.5
+prefer_intended_top_speed_gear_near_limit=true
+
+upshift_hysteresis=0.10
+min_upshift_net_accel_mps2=0.05
