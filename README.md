@@ -1,2 +1,2 @@
-Hello, this is a silly test repo
+Hello, this is a silly test repo. Enjoy.
 
